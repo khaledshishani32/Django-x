@@ -1,0 +1,14 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+
+  
+  
+    <h3>{{car.title}}</h3>
+    <h3>{{car.purchaser}}</h3>
+    <p>{{car.description}}</p>
+    <a href="{% url 'car_update' snack.pk %}">+ Update car</a>
+    <a href="{% url 'car_delete' snack.pk %}">+ Delete car</a>
+
+{% endblock content %}

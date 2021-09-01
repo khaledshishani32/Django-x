@@ -23,6 +23,8 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'cars',
+    
 
     # Third-party
     'allauth',
